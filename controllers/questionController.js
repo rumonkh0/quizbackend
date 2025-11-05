@@ -1,4 +1,5 @@
 const Question = require("../models/Question");
+const mongoose = require("mongoose");
 
 // ✅
 exports.createQuestion = async (req, res) => {
